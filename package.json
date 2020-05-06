@@ -1,0 +1,31 @@
+{
+  "name": "free-flags-icons",
+  "version": "0.1.0",
+  "description": "Icons from freeflagicons.com",
+  "author": "Greg Venech",
+  "license": "SEE LICENSE IN http://www.freeflagicons.com/agreement/",
+  "homepage": "https://github.com/skipjack/free-flag-icons",
+  "main": "index.js",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/skipjack/free-flag-icons/issues"
+  },
+  "keywords": [
+    "flags",
+    "images",
+    "countries"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skipjack/free-flag-icons.git"
+  },
+  "scripts": {
+    "collect": "node --experimental-modules --no-warnings index.js"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "i18n-iso-countries": "^5.3.0",
+    "jimp": "^0.10.3",
+    "node-fetch": "^2.6.0"
+  }
+}
